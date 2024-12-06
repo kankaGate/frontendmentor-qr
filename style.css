@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  max-width: 1440px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    max-width: 32rem;
+    background-color: #fff;
+    padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+    margin: 20rem auto;
+    border-radius: 1.8rem;
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.4rem;
+}
+
+.qr-img {
+    width: 100%;
+    border-radius: 1rem;   
+}
+
+.qr-description {
+    max-width: 25.5rem;
+}
+
+h3 {
+    color: #1B273D;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+}
+
+p {
+    color: #6F727B;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: -2%;
+}
